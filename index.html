@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <meta name="description" content="마크다운으로 쓰는 개인 블로그">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <link
+    id="hljs-theme"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/styles/github.min.css"
+  >
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-title">My Blog</a>
+      <button id="theme-toggle" aria-label="다크 모드로 전환">🌙</button>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+    <h1 class="page-title">글 목록</h1>
+    <div id="tag-filter" class="tag-filter" role="group" aria-label="태그 필터"></div>
+    <ul id="post-list" class="post-list">
+      <li class="error-message">포스트를 불러오는 중...</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 My Blog</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

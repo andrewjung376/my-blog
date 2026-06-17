@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "css-variables-guide",
+    "title": "CSS 변수(Custom Properties)로 테마 시스템 만들기",
+    "date": "2026-06-17",
+    "tags": ["css", "frontend", "tips"],
+    "excerpt": "CSS 변수를 활용해 라이트/다크 모드를 포함한 테마 시스템을 순수 CSS만으로 구축하는 방법을 소개합니다."
+  },
+  {
+    "slug": "js-array-methods-2026-06-17",
+    "title": "매일 쓰는 JavaScript 배열 메서드 5가지",
+    "date": "2026-06-17",
+    "tags": ["javascript", "tips"],
+    "excerpt": "filter, map, reduce, find, flatMap — 실무에서 가장 자주 쓰이는 배열 메서드 5가지와 흔히 빠지는 함정을 정리합니다."
+  },
+  {
+    "slug": "claude-code-guide",
+    "title": "Claude Code 사용법 가이드",
+    "date": "2026-06-17",
+    "tags": ["claude", "ai", "tools"],
+    "excerpt": "Claude Code CLI 도구의 핵심 기능을 정리한 가이드입니다. 설치부터 MCP 연동, 고급 기능까지 한 번에."
+  }
+]
